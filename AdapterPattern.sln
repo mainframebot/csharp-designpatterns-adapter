@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lessons", "Lessons", "{F1B587AA-889D-41F7-B6DB-B36EFFF8D5DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DC4E3165-4FB1-4A0A-8B22-F3D9BED42F4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPatternLesson", "AdapterPatternLesson\AdapterPatternLesson.csproj", "{62F6BBA2-6CB3-4EA4-804C-63506F0E116F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPatternTests", "AdapterPatternTests\AdapterPatternTests.csproj", "{30FBCFE1-5DB0-4A65-84DB-3BAEB306975B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62F6BBA2-6CB3-4EA4-804C-63506F0E116F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F6BBA2-6CB3-4EA4-804C-63506F0E116F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62F6BBA2-6CB3-4EA4-804C-63506F0E116F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62F6BBA2-6CB3-4EA4-804C-63506F0E116F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30FBCFE1-5DB0-4A65-84DB-3BAEB306975B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FBCFE1-5DB0-4A65-84DB-3BAEB306975B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FBCFE1-5DB0-4A65-84DB-3BAEB306975B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FBCFE1-5DB0-4A65-84DB-3BAEB306975B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62F6BBA2-6CB3-4EA4-804C-63506F0E116F} = {F1B587AA-889D-41F7-B6DB-B36EFFF8D5DF}
+		{30FBCFE1-5DB0-4A65-84DB-3BAEB306975B} = {DC4E3165-4FB1-4A0A-8B22-F3D9BED42F4F}
+	EndGlobalSection
+EndGlobal
